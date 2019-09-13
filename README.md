@@ -2,7 +2,7 @@
 
 See [problem1](problem1/) and [problem2](problem2/).
 
-We expect these solutions to be pushed within a few hours of when they were given out. Code should ideally be clear, commented, and _some_ thought given to edge cases. 
+We expect these solutions to be *in Python* and pushed within a few hours of when they were given out. Code should ideally be clear, commented, and _some_ thought given to edge cases. 
 
 Ideally, you'll:
 
