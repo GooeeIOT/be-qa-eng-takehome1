@@ -45,13 +45,13 @@ Similarly, for example, the list `["Lorem", "ipsum", "dolor", "sit", "amet,", "c
 
 > Create a helper function (or functions) to make a HTTP GET request to an arbitrary host and encapulate various QA assertions within it. The idea is to create a helper function(s) that will let you make a request and encapulate various checks within it so that URL assertions become cheap to write for a suite, you, and others.
 
-For example, a function could take a URL to do a GET request on and assert the data and response code looks a certain way. If it doesn't pass muster, then the function should handle it in some meaningful way, what ever you think that is. 
+In it's simpliest form, a function could take a URL to make a GET request to and a status code to assert for the response. If the expected and actual status code differ, then return false otherwise return true.
 
 ```python
-def requestor(url, ...some other args...):
-    # preprocess sanity checks, maybe.
-    # make response and save to variable
-    # assert various things and report accordingly
+def requestor(url, status_code, ...other args if you think of more...):
+    # make request and save to variable
+    # assert status code looks as expected
+    # return true on success and false on failure 
 ```
 
 > Bonus points for supporting other HTTP verbs like POST within the same function. 
