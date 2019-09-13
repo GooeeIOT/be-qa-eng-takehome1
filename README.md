@@ -11,3 +11,5 @@ Ideally, you'll:
 * `git commit` and `git push` as you work through the problem 
 * submit a pull request for your branch against master
 * the team will review when we can
+ 
+If making a PR etc for what ever reason can't be accomplished, just submit the files zipped to your recruiter or Gooee contact directly.
