@@ -1,6 +1,4 @@
-# be-qa-eng-takehome1
-
-## Rectangular Frame Print
+# Rectangular Frame Print
 
 > Write a function that takes an iterable of strings and prints them, one per line, in a rectangular frame.
 
@@ -43,7 +41,7 @@ Similarly, for example, the list `["Lorem", "ipsum", "dolor", "sit", "amet,", "c
 ***************
 ```
 
-## Request Helper
+# Request Helper
 
 > Create a helper function (or functions) to make a HTTP GET request to an arbitrary host and encapulate various QA assertions within it. The idea is to create a helper function(s) that will let you make a request and encapulate various checks within it so that URL assertions become cheap to write for a suite, you, and others.
 
