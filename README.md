@@ -52,6 +52,9 @@ def requestor(url, status_code, ...other args if you think of more...):
     # make request and save to variable
     # assert status code looks as expected
     # return true on success and false on failure 
+
+pass_or_fail = requestor("https://jsonplaceholder.typicode.com/todos/1", status_code=200)
+print("pass_or_fail: {}".format(pass_or_fail))
 ```
 
 > Bonus points for supporting other HTTP verbs like POST within the same function. 
