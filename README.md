@@ -51,12 +51,11 @@ In it's simpliest form, a function could take a URL to make a GET request to and
 def requestor(url, status_code, ...other args if you think of more...):
     # make request and save to variable
     # assert status code looks as expected
+    # bonus if you can assert the response data looks as expected
     # return true on success and false on failure 
 
 pass_or_fail = requestor("https://jsonplaceholder.typicode.com/todos/1", 200)
 print("pass_or_fail: {}".format(pass_or_fail))
 ```
-
-> Bonus points for supporting other HTTP verbs like POST within the same function. 
 
 A popular library to use is https://2.python-requests.org/en/master/
