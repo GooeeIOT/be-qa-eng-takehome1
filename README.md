@@ -53,7 +53,7 @@ def requestor(url, status_code, ...other args if you think of more...):
     # assert status code looks as expected
     # return true on success and false on failure 
 
-pass_or_fail = requestor("https://jsonplaceholder.typicode.com/todos/1", status_code=200)
+pass_or_fail = requestor("https://jsonplaceholder.typicode.com/todos/1", 200)
 print("pass_or_fail: {}".format(pass_or_fail))
 ```
 
