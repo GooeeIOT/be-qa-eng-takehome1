@@ -58,3 +58,5 @@ print("pass_or_fail: {}".format(pass_or_fail))
 ```
 
 > Bonus points for supporting other HTTP verbs like POST within the same function. 
+
+A popular library to use is (https://2.python-requests.org/en/master/)[requests]
