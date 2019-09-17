@@ -2,7 +2,7 @@
 
 > Write a function that takes an iterable of strings and prints them, one per line, in a rectangular frame.
 
-* there's essentially 1 space before and after the longest word with asterisks on the other end
+* there's 1 space before and after the longest word with asterisks on the other end
 * the text must be center aligned (best you can, middle can vary)
 * some specific symbols should be printed on their own line no matter where they appear
     * `,` (comma)
