@@ -1,6 +1,6 @@
 # Rectangular Frame Print
 
-> Write a function that takes an iterable of strings and prints them, one per line, in a rectangular frame.
+**Write a function that takes an iterable of strings and prints them, one per line, in a rectangular frame.**
 
 * there's 1 space before and after the longest word with asterisks on the other end
 * the text must be center aligned (best you can, middle can vary)
