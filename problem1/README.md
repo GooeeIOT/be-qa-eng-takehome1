@@ -25,7 +25,7 @@ For example, the list `["Hello", "World", "in", "a", "frame!"]` gets printed as:
 *********
 * Hello *
 * World *
-*   in  *
+*  in   *
 *   a   *
 * frame *
 *   !   *
