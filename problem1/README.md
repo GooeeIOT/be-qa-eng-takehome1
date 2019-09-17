@@ -26,9 +26,9 @@ For example, the list `["Hello", "World", "in", "a", "frame!"]` gets printed as:
 * Hello *
 * World *
 *  in   *
-*   a   *
+*  a    *
 * frame *
-*   !   *
+*  !    *
 *********
 ```
 
@@ -40,8 +40,8 @@ Similarly, for example, the list `["Lorem", "ipsum", "dolor", "sit", "amet,", "c
 *    ipsum    *
 *    dolor    *
 *     sit     *
-*    amet     *
-*      ,      *
+*     amet    *
+*     ,       *
 * consectetur *
 * adipiscing  *
 *    elit     *
