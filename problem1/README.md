@@ -11,6 +11,9 @@
 * max width of entire line, including asterisks, must not _exceed_ 15 characters wide
     * upon the line exceeding max length, print a line of all astertisks how ever wide as to not mess up the box
       For example,
+
+      The list `["foo", "floccinaucinihilipilification", "bar"]` gets printed as:
+
       ```
       *******
       * foo *
